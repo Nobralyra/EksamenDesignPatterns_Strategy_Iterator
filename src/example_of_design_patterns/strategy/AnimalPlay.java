@@ -7,7 +7,7 @@ public class AnimalPlay
     private Animal bamse = new Dog();
     private Animal andrea = new Bird();
 
-    public void wgg()
+    public void showDynamicChanges()
     {
         System.out.println("Dog: " + bamse.tryToFly());
         System.out.println("Bird: " + andrea.tryToFly());
