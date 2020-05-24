@@ -12,7 +12,7 @@ public class AnimalPlay
         System.out.println("Dog: " + bamse.tryToFly());
         System.out.println("Bird: " + andrea.tryToFly());
 
-        // This allows dynamic changes for flyingType
+        //This allows dynamic changes for flyingType
         bamse.setFlyingAbility(new ItFlys());
         System.out.println("Dog: " + bamse.tryToFly());
     }

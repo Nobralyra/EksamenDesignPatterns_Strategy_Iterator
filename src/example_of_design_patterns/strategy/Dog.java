@@ -8,8 +8,6 @@ public class Dog extends Animal
     {
         super();
 
-        setSound("Bark");
-
         /** BAD
         * You could override the fly method, but we are breaking
         * the rule that we need to abstract what is different to
@@ -21,9 +19,7 @@ public class Dog extends Animal
          }
          */
 
-
         //Sets the CantItFly interface polymorphically
-        //This sets the behavior as a non-flying Animal
         flyingType = new CantFly();
     }
 }

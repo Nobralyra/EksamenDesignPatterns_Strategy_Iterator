@@ -4,8 +4,6 @@ import example_of_design_patterns.strategy.flying.CanItFly;
 
 public class Animal
 {
-    private String sound;
-
     /**
      * Instance Variable
      * Not using the interface in the traditional way, but as a Instance Variable that is a subclass of the CanItFly interface
@@ -13,14 +11,8 @@ public class Animal
      */
     public CanItFly flyingType;
 
-    public String getSound()
+    public Animal()
     {
-        return sound;
-    }
-
-    public void setSound(String sound)
-    {
-        this.sound = sound;
     }
 
     /**
@@ -32,8 +24,7 @@ public class Animal
     }
 
     /**
-     * If you want to be able to change the flyingType dynamically
-     * add the following method
+     * Change the flyingType dynamically
      * @param newFlyType
      */
     public void setFlyingAbility(CanItFly newFlyType)

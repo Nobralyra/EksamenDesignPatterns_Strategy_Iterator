@@ -21,10 +21,10 @@ public class UseOfIterator
     {
         System.out.println("\nIterator Example:");
 
-        // First we make an Iterator by calling the .iterator() method on the collection
+        //First we make an Iterator by calling the .iterator() method on the collection
         Iterator<String> avengersIterator = avengers.iterator();
 
-        // And now we use .hasNext() and .next() to go through it
+        //And now we use .hasNext() and .next() to go through it
         while (avengersIterator.hasNext())
         {
             String currentAvenger = avengersIterator.next();
@@ -39,10 +39,10 @@ public class UseOfIterator
         {
             String avenger = avengersIterator.next();
 
-            // First we must find the element we wish to remove
+            //First we must find the element we wish to remove
             if (avenger.equals("Ant-Man"))
             {
-                // This will remove "Ant-Man" from the original collection, in this case a List
+                //This will remove "Ant-Man" from the original collection, in this case a List
                 avengersIterator.remove();
             }
         }
