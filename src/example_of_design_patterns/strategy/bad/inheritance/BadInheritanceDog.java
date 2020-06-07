@@ -9,7 +9,6 @@ public class BadInheritanceDog extends BadAnimal
     }
 
     /**
-     * Bad
      * You could override the fly method, but we are breaking
      * the rule that we need to abstract what is different to
      * the subclasses

@@ -15,8 +15,7 @@ public class BadAnimal
     }
 
     /**
-     * Bad
-     * You don't want to add methods to the super class, because every subclass
+     * Do not add methods to the super class, because every subclass
      * then needs to override this method - duplicate code!
      * You need to separate what is different between subclasses and the super class
      */
