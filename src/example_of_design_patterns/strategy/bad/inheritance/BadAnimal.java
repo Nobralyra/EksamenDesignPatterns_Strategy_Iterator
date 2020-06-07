@@ -17,7 +17,7 @@ public class BadAnimal
     /**
      * Do not add methods to the super class, because every subclass
      * then needs to override this method - duplicate code!
-     * You need to separate what is different between subclasses and the super class
+     * Need to separate what is different between subclasses and the super class
      */
     public void fly()
      {
