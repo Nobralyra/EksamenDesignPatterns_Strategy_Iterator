@@ -4,20 +4,14 @@ import example_of_design_patterns.strategy.flying.CanItFly;
 
 public class Animal
 {
-    /**
-     * Instance Variable
-     * Not using the interface in the traditional way, but as a Instance Variable that is a subclass of the CanItFly interface
-     * Not inheritance but composition
-     */
+    //Composition - not inheritance
     public CanItFly flyingType;
 
     public Animal()
     {
     }
 
-    /**
-     * Animal pushes off the responsibility for flying to flyingType
-     */
+    //Animal pushes off the responsibility for flying to flyingType
     public String tryToFly()
     {
         return flyingType.fly();

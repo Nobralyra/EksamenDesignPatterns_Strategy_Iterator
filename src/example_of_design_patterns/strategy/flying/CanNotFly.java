@@ -1,9 +1,6 @@
 package example_of_design_patterns.strategy.flying;
 
-/**
- * Class used if the Animal can't fly
- */
-public class CantFly implements CanItFly
+public class CanNotFly implements CanItFly
 {
     @Override
     public String fly()

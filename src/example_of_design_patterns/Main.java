@@ -8,11 +8,19 @@ public class Main
     public static void main(String[] args)
     {
         AnimalPlay animalPlay = new AnimalPlay();
-
         animalPlay.showDynamicChanges();
 
         ManipulateArrayListWithIterator manipulateArrayListWithIterator = new ManipulateArrayListWithIterator();
-
         manipulateArrayListWithIterator.showIteratorOnArrayList();
     }
+
+    /**
+     * AnimalPlay.java
+     * Animal.java
+     * CanItFly.java
+     * CanNotFly.java
+     * ItFlys.java
+     * Dog.java
+     * Bird.java
+     */
 }
