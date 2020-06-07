@@ -5,14 +5,14 @@ import example_of_design_patterns.strategy.flying.CanItFly;
 public class Animal
 {
     //Composition - not inheritance
-    public CanItFly flyingType;
+    protected CanItFly flyingType;
 
     public Animal()
     {
     }
 
     //Animal pushes off the responsibility for flying to flyingType
-    public String tryToFly()
+    protected String tryToFly()
     {
         return flyingType.fly();
     }
@@ -21,7 +21,7 @@ public class Animal
      * Change the flyingType dynamically
      * @param newFlyType
      */
-    public void setFlyingAbility(CanItFly newFlyType)
+    protected void setFlyingAbility(CanItFly newFlyType)
     {
         flyingType = newFlyType;
     }
